@@ -1,6 +1,9 @@
 .header {
   border-bottom: 1px solid var(--border-header);
   align-items: center;
+  .logo {
+    margin-right: 70px;
+  }
 }
 
 .header-container {
@@ -29,10 +32,10 @@
   display: flex;
   align-items: center;
   transition: color var(--transition);
-}
-
-.header .logo {
-  margin-right: 70px;
+  &:hover,
+  &:focus {
+    color: var(--blue-color);
+  }
 }
 
 .header-item:not(:last-child) {
@@ -49,17 +52,6 @@
   align-items: center;
 }
 
-.header-link:hover,
-.header-link:focus,
-.current {
-  color: var(--blue-color);
-}
-
-.contacts-icon:hover,
-.contacts-icon:focus {
-  fill: var(--blue-color);
-}
-
 .header-contacts {
   display: flex;
   margin-left: auto;
@@ -74,18 +66,25 @@
   fill: var(--main-text-color);
   margin-right: 10px;
   fill: currentColor;
+  &:hover,
+  &:focus {
+    fill: var(--blue-color);
+  }
 }
 
 .current {
   position: relative;
-}
-
-.current::after {
-  content: '';
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  position: absolute;
-  background-color: var(--blue-color);
-  bottom: -1px;
+  &:hover,
+  &:focus {
+    color: var(--blue-color);
+  }
+  &::after {
+    content: '';
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    position: absolute;
+    background-color: var(--blue-color);
+    bottom: -1px;
+  }
 }

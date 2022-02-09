@@ -40,12 +40,11 @@
   background-color: var(--footer-icon);
   color: var(--border-clients-item);
   transition: color var(--transition), background-color var(--transition);
-}
-
-.social-link:hover,
-.social-link:focus {
-  background-color: var(--blue-color);
-  color: var(--white-color);
+  &:hover,
+  &:focus {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+  }
 }
 
 .social-icon {

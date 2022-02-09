@@ -14,11 +14,10 @@
   border-color: var(--input-footer-color);
   color: var(--input-footer-color);
   transition: border-color var(--transition);
-}
-
-.form-input-footer:hover,
-.form-input-footer:focus {
-  border-color: var(--white-color);
+  &:hover,
+  &:focus {
+    border-color: var(--white-color);
+  }
 }
 
 .footer-cont-item:last-child {

@@ -7,21 +7,19 @@
   border-radius: 4px;
   color: var(--border-clients-item);
   transition: color var(--transition);
-}
-
-.clients-link:hover,
-.clients-link:focus {
-  color: var(--blue-color);
-}
-
-.clients-icon:hover,
-.clients-icon:focus {
-  fill: var(--blue-color);
+  &:hover,
+  &:focus {
+    color: var(--blue-color);
+  }
 }
 
 .clients-icon {
   fill: currentColor;
-  transition: color var(--transition);
+  transition: fill var(--transition);
+  &:hover,
+  &:focus {
+    fill: var(--blue-color);
+  }
 }
 
 .clients-item {
