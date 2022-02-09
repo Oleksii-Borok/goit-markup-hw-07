@@ -1,0 +1,29 @@
+.clients-link {
+  padding: 16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  color: var(--border-clients-item);
+  transition: color var(--transition);
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  color: var(--blue-color);
+}
+
+.clients-icon:hover,
+.clients-icon:focus {
+  fill: var(--blue-color);
+}
+
+.clients-icon {
+  fill: currentColor;
+  transition: color var(--transition);
+}
+
+.clients-item {
+  flex-basis: calc(100% / 6 - 30px);
+}

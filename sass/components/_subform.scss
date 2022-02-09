@@ -1,0 +1,26 @@
+.footer-form {
+  display: flex;
+  align-items: center;
+}
+
+.form-input-footer {
+  background-color: transparent;
+  padding-left: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 4px;
+  margin-right: 12px;
+  width: 358px;
+  border-color: var(--input-footer-color);
+  color: var(--input-footer-color);
+  transition: border-color var(--transition);
+}
+
+.form-input-footer:hover,
+.form-input-footer:focus {
+  border-color: var(--white-color);
+}
+
+.footer-cont-item:last-child {
+  margin-left: auto;
+}
