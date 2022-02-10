@@ -47,13 +47,13 @@
   &:hover {
     border: 1px solid var(--blue-color);
   }
-  &:focus + .input-icon,
-  &:hover + .input-icon {
+  &:focus + .form-input_icon,
+  &:hover + .form-input_icon {
     fill: var(--blue-color);
   }
 }
 
-.input-text {
+.form-input_text {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.67;
@@ -88,7 +88,7 @@
   }
 }
 
-.input-icon {
+.form-input_icon {
   position: absolute;
   left: 15px;
   top: 50%;
@@ -96,7 +96,7 @@
   transition: fill var(--transition);
 }
 
-.input-wrap {
+.form-input_wrappy {
   position: relative;
 }
 

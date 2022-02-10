@@ -1,20 +1,8 @@
-.card-set {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
-}
-
-.item {
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
-.strength-list-item {
+.strength-list_item {
   flex-basis: calc(100% / 4 - 30px);
 }
 
-.strength-list-title {
+.strength-list_title {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;

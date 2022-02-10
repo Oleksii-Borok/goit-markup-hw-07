@@ -38,7 +38,7 @@
   }
 }
 
-.join-title {
+.footer-action_title {
   color: var(--white-color);
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -49,6 +49,9 @@
   align-items: baseline;
 }
 
-.footer-cont-item:not(:last-child) {
+.footer-block:not(:last-child) {
   margin-right: 70px;
+  &:last-child {
+    margin-left: auto;
+  }
 }

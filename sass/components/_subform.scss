@@ -3,7 +3,7 @@
   align-items: center;
 }
 
-.form-input-footer {
+.footer-input_form {
   background-color: transparent;
   padding-left: 16px;
   padding-top: 15px;
@@ -18,8 +18,4 @@
   &:focus {
     border-color: var(--white-color);
   }
-}
-
-.footer-cont-item:last-child {
-  margin-left: auto;
 }

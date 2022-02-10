@@ -1,18 +1,10 @@
-.section-title {
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-}
-
 .general-item {
   flex-basis: calc(100% / 3 - 30px);
   position: relative;
   display: flex;
 }
 
-.general-item-title {
+.general-item_title {
   text-transform: uppercase;
   font-size: 14px;
   position: absolute;
