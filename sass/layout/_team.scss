@@ -1,28 +1,28 @@
 .team {
   background-color: var(--button-color);
+  --card-item: 4;
 }
 
-.team-member,
-.team-member_position {
+.team__item-title,
+.team__item-position {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 
-.team-member {
+.team__item-title {
   margin-bottom: 10px;
 }
 
-.team-member_position {
+.team__item-position {
   margin-bottom: 16px;
 }
 
-.team-wraper {
+.team__wraper {
   padding: 30px;
 }
 
-.team-list-item {
-  flex-basis: calc(100% / 4 - 30px);
+.team__item {
   overflow: hidden;
   border-radius: 0px 0px 4px 4px;
   background-color: var(--white-color);
@@ -30,7 +30,7 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.social-link {
+.social__link {
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -47,7 +47,7 @@
   }
 }
 
-.social-icon {
+.social__icon {
   fill: currentColor;
 }
 
@@ -56,7 +56,7 @@
   justify-content: center;
 }
 
-.social-item {
+.social__item {
   & + & {
     margin-left: 10px;
   }
